@@ -1,0 +1,37 @@
+
+
+label{
+ display: block;
+ padding-left: 15px;
+
+}
+
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="text"],
+input[type="date"],
+select{
+    padding:10px;
+    width:70%;
+    border:1px solid black;
+    border-radius:10px;
+    margin: 10px 0px;
+    background-color:  rgb(199, 199, 202)
+}
+
+input[type="submit"], input[type="reset"]{
+    color:black ;
+    background-color: rgb(42, 83, 110);
+    padding: 10px 2px; margin: 10px 10px 10px 0px;
+
+}
+
+.pog{
+    background-color: rgb(230, 230, 230);
+   
+} 
+
+
+form {margin-bottom:50px;}
+

@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="OwO.css">
+    <title>Vnořené seznamy</title>
+    <style>
+        *{box-sizing: border-box;}
+        body{
+            font-family: sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            background-color: white;
+        }
+         header{
+             background-color: #283593;
+             color: white;
+             text-align: center;
+             padding: 20px;
+            
+             
+         }
+         
+         footer{
+             text-align: center;
+             padding: 10px;
+             background-color: #283593;
+             color:white;
+         }
+
+         main{
+             background-color: #E0E0E0;
+             float:right;
+             width: 80%;
+             padding: 29px;
+             
+         }
+
+         nav {
+             float:left;
+             width: 20%;
+             background-color: white;
+             
+         }
+         
+
+
+         .clearfix{
+             clear:both;
+         }
+
+         .kkt {color: #36a436;}
+
+         .hmm {color:#d11f1f;}
+
+         .pog {color:#006dff;}
+
+         .fotky img{ 
+             float:left;
+             padding: 5px;
+             width: 33.33333%;
+            
+        }
+         
+       
+
+        
+        
+    </style>
+</head>
+<body>
+  <header>
+      <h1>Header</h1>
+  </header>
+  <nav>
+      <ul>
+          <li><a href="#filmy">Filmy a seriály</a></li>
+          <li><a href="#reziseri">Režiséři</a></li>
+          <li><a href="#herci">Herci a Herečky</a></li>
+      </ul>
+  </nav>
+  <main>
+    <h2>Žebříčky filmů a seriálů (Zdoj: csfd.cz)</h2>
+    <ol type="I">
+        <li>Nejoblíbenější filmy
+            <ol class="kkt">
+                <li> Forest Gump (1994)</li>
+                <li> Vykoupení z věznice Shawshank (1994)</li>
+                <li> Pulp Fiction: Historky z podsvětí (1994)</li>
+            </ol>
+        </li>
+        <li>Nejoblíbenější seriály
+            <ol class="kkt">
+                <li>Simpsnovi (1989)</li>
+                <li>Teorie velkého třesku (2007)</li>
+                <li>Přátelé (1994)</li>
+            </ol>
+        </li>
+        <li>Nejoblíbenější režiséři
+            <ol class="kkt">
+                <li>Steven Spielberg
+                    <ul class="pog">
+                    <li>Válka světů</li>
+                    <li>Terminál</li>
+                    <li>Jurský park
+                        <ol type="a" class="hmm">
+                            <li>Jurský Park (1993)</li>
+                            <li>Ztracný svět Jurský park (1997)</li>
+                            <li>Jurský park 3 (2001)</li>
+                        </ol>
+                    </li>
+                    <li>Chyť mě, když to dokážeš</li>
+                    </ul>
+                </li>
+                <li>Quentin Tarantino</li>
+                <li>Tim Burton</li>
+            </ol>
+        </li>
+    </ol>
+   <div class="fotky">
+    <img src="https://placeimg.com/640/480/animals">
+    <img src="http://lorempixel.com/output/animals-q-g-640-480-2.jpg">
+    <img src="https://placeimg.com/640/480/arch">
+   </div>
+    
+   <h2>Pulp fiction</h2>
+   
+   <div class="fotky">
+   <img src="https://www.tvguru.cz/wp-content/uploads/2018/04/07/majkowski/Pulp-Fiction.jpg">
+   </div>
+   <p>Pohled do losangeleského podsvětí zamořeného drogovými dealery spletený do několika historek. Barevné, až nadsmyslné scény z tajemných barů, obrázky "běžného" života gangsterů, kteří musí čistit vyhrazené území pro svého šéfa, to vše je strhujícím opusem, jehož stvořitelem nemůže být nikdo jiný než hollywoodský scénárista a režisér Quentin Tarantino. </p>
+   <p>Děj Pulp Fiction tvoří několik příběhů z losangeleského gangsterského prostředí, které se v několika scénách spojují a prolínají. Jejich společným prvkem jsou postavy Marsella Wallace (Ving Rhames), Vincenta Vegy (John Travolta) a Miy Wallacové (Uma Thurman), což jsou jediné tři postavy, které se vyskytují ve všech povídkách. Je k nim samozřejmě připojena celá řada dodatků, vedlejších epizod a příběhů. V celé mozaice je také celá řada společných motivů, které se opakují a jednotlivé povídky spojují. Příběhy jsou plné bizarních dějových zvratů, narážek na klasické béčkové filmy i postmoderních prvků.</p>
+    </main>
+    <footer class="clearfix">
+       &copy; CHC 22.10.2021 Jiří krč
+    </footer>
+</body>
+</html>+
